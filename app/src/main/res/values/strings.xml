@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DeportesTIC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textHome">Bienvenido a DEPORTES TIC, un espacio diseñado pensando en tu comodidad. Encuentra todos los productos deportivos de tu interés, sin salir de casa y a un precio inigualable.</string>
+    <string name="textSlogan">¡Atrévete a vencer tus límites, nosotros te acompañamos en el camino!</string>
 </resources>
