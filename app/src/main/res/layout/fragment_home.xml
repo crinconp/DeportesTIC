@@ -39,7 +39,7 @@
                         android:text="@string/textHome"
                         android:textSize="@dimen/textSizeContent"
                         android:textColor="@color/primaryTextColor"
-                        android:gravity="center_horizontal"
+                        android:gravity="fill_horizontal"
                         android:layout_margin="@dimen/defaultLayoutMargin"/>
 
                     <TextView
@@ -50,7 +50,7 @@
                         android:textStyle="bold|italic"
                         android:textSize="@dimen/textSizeContent"
                         android:textColor="@color/primaryTextColor"
-                        android:gravity="center_horizontal"
+                        android:gravity="fill_horizontal"
                         android:layout_margin="@dimen/defaultLayoutMargin"/>
 
                     <ImageView
