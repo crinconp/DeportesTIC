@@ -7,4 +7,6 @@
     <dimen name="defaultLayoutMargin">10dp</dimen>
     <dimen name="textSizeContent">20sp</dimen>
     <dimen name="foto_deportesHeight">275dp</dimen>
+    <dimen name="sizecuadros">200dp</dimen>
+    <dimen name="sizeanchocuadros">50dp</dimen>
 </resources>
