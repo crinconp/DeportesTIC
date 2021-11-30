@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="cardElevation">5dp</dimen>
+    <dimen name="cardLayoutMargin">1dp</dimen>
+    <dimen name="logoHeight">115dp</dimen>
+    <dimen name="defaultLayoutMargin">10dp</dimen>
+    <dimen name="textSizeContent">20sp</dimen>
+    <dimen name="foto_deportesHeight">275dp</dimen>
+    <dimen name="sizecuadros">200dp</dimen>
+    <dimen name="sizeanchocuadros">50dp</dimen>
+</resources>

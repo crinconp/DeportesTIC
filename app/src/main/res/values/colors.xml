@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="azul_rey">#FF00067c</color>
-    <color name="azul_oscuro">#FF00023b</color>
-    <color name="amarillo">#FFffd31a</color>
-    <color name="naranja_claro">#FFf2811d</color>
-    <color name="naranja_oscuro">#ffe44b0a</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#00067C</color>
+    <color name="primaryLightColor">#00023B</color>
+    <color name="primaryDarkColor">#FFD31A</color>
+    <color name="secondaryColor">#F2811D</color>
+    <color name="secondaryLightColor">#E44B0A</color>
+    <color name="secondaryDarkColor">#FF000000</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#FFFFFF</color>
 </resources>
