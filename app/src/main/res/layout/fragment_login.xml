@@ -15,7 +15,7 @@
         android:layout_marginTop="40dp"
         tools:ignore="UseCompoundDrawables">
         <TextView
-            android:id="@+id/tittle"
+            android:id="@+id/tittlee"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="45dp"
@@ -25,7 +25,7 @@
             android:textStyle="bold"
             android:textColor="@color/primaryTextColor"/>
         <ImageView
-            android:id="@+id/logo"
+            android:id="@+id/logoo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="18dp"
@@ -40,7 +40,7 @@
         android:layout_gravity="center">
 
         <EditText
-            android:id="@+id/text_user"
+            android:id="@+id/textUser"
             android:background="@color/secondaryTextColor"
             android:layout_width="@dimen/sizecuadros"
             android:layout_height="@dimen/sizeanchocuadros"
@@ -52,7 +52,7 @@
             />
 
         <EditText
-            android:id="@+id/text_password"
+            android:id="@+id/textPassword"
             android:layout_width="@dimen/sizecuadros"
             android:layout_height="@dimen/sizeanchocuadros"
             android:background="@color/secondaryTextColor"
@@ -76,7 +76,7 @@
             android:layout_marginTop="230dp">
 
             <Button
-                android:id="@+id/buttonLogin"
+                android:id="@+id/butonLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -86,7 +86,7 @@
                 tools:ignore="ButtonStyle,RtlHardcoded" />
 
             <Button
-                android:id="@+id/buttonRegister"
+                android:id="@+id/butonRegister"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
@@ -106,28 +106,28 @@
         android:layout_marginTop="600dp">
 
         <ImageView
-            android:id="@+id/Facebook"
+            android:id="@+id/Facebok"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="80dp"
             android:src="@drawable/facebook"
             tools:ignore="ContentDescription,RtlHardcoded" />
         <ImageView
-            android:id="@+id/whatsapp"
+            android:id="@+id/whatsap"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
             android:src="@drawable/whatsapp"
             tools:ignore="ContentDescription,RtlHardcoded" />
         <ImageView
-            android:id="@+id/instagram"
+            android:id="@+id/instagra"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
             android:src="@drawable/instagram"
             tools:ignore="ContentDescription,RtlHardcoded" />
         <ImageView
-            android:id="@+id/telegram"
+            android:id="@+id/telegra"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"

@@ -10,7 +10,7 @@
         android:icon="@drawable/ic_outline_shopping_cart_24"/>
     <item
         android:id="@+id/navCommentsFragment"
-        android:title="Comentarios"
+        android:title="Catalago"
         android:icon="@drawable/ic_outline_comment_24"/>
     <item
         android:id="@+id/navAdminFragment"
