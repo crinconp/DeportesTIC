@@ -3,7 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/navHomeFragment">
+    app:startDestination="@id/navLoginFragment">
+    <fragment
+        android:id="@+id/navLoginFragment"
+        android:name="com.example.deportestic.view.ui.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_navLoginFragment_to_navHomeFragment"
+            app:destination="@id/navHomeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/navHomeFragment"
         android:name="com.example.deportestic.view.ui.fragments.HomeFragment"
@@ -12,38 +21,28 @@
         <action
             android:id="@+id/action_navHomeFragment_to_navShoppingCartFragment"
             app:destination="@id/navShoppingCartFragment" />
+        <action
+            android:id="@+id/action_navHomeFragment_to_navComentsFragment"
+            app:destination="@id/navCommentsFragment" />
+        <action
+            android:id="@+id/action_navHomeFragment_to_navAdminFragment"
+            app:destination="@id/navAdminFragment" />
     </fragment>
     <fragment
-        android:id="@+id/navComentsFragment"
+        android:id="@+id/navCommentsFragment"
         android:name="com.example.deportestic.view.ui.fragments.ComentsFragment"
         android:label="fragment_coments"
-        tools:layout="@layout/fragment_coments" >
-        <action
-            android:id="@+id/action_navComentsFragment_to_adminFragment"
-            app:destination="@id/adminFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_coments" />
     <fragment
         android:id="@+id/navShoppingCartFragment"
         android:name="com.example.deportestic.view.ui.fragments.ShoppingCartFragment"
         android:label="fragment_shopping_cart"
-        tools:layout="@layout/fragment_shopping_cart" >
-        <action
-            android:id="@+id/action_navShoppingCartFragment_to_shoppongDialog"
-            app:destination="@id/shoppingDialog" />
-        <action
-            android:id="@+id/action_navShoppingCartFragment_to_navComentsFragment"
-            app:destination="@id/navComentsFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_shopping_cart" />
 
-    <dialog
-        android:id="@+id/shoppingDialog"
-        android:name="com.example.deportestic.view.ui.fragments.ShoppingDialogFragment"
-        android:label="ShoppingDialogFragment"
-        tools:layout="@layout/fragment_shopping_dialog"
-        />
     <fragment
-        android:id="@+id/adminFragment"
+        android:id="@+id/navAdminFragment"
         android:name="com.example.deportestic.view.ui.fragments.AdminFragment"
         android:label="fragment_admin"
         tools:layout="@layout/fragment_admin" />
+
 </navigation>

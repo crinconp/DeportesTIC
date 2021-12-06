@@ -5,25 +5,25 @@
     android:layout_height="match_parent"
     tools:context=".view.ui.fragments.ShoppingCartFragment">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvComments"
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
+        android:layout_height="@dimen/logoHeight"
+        android:layout_margin="@dimen/defaultLayoutMargin"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_horizontal"/>
     <RelativeLayout
-        android:id="@+id/rlBaseComments"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="140dp">
 
-        <View
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/primaryColor"
-            android:alpha="0.2"/>
-        <ProgressBar
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"/>
+            android:textSize="30dp"
+            android:textColor="@color/primaryTextColor"
+            android:gravity="center_horizontal"
+            android:text="@string/carro"/>
+
     </RelativeLayout>
 
 </FrameLayout>
