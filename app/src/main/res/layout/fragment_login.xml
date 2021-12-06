@@ -6,6 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.ui.fragments.LoginFragment"
     tools:layout_editor_absoluteX="183dp"
     tools:layout_editor_absoluteY="71dp">
 
@@ -83,7 +85,13 @@
                 android:text="@string/buttonLogin"
                 android:backgroundTint="@color/secondaryLightColor"
                 android:textColor="@color/secondaryTextColor"
-                tools:ignore="ButtonStyle,RtlHardcoded" />
+                tools:ignore="ButtonStyle,RtlHardcoded"
+                app:layout_constraintBottom_toTopOf="@+id/navigate_action_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text"
+                app:layout_constraintVertical_bias="0.594" />
 
             <Button
                 android:id="@+id/butonRegister"

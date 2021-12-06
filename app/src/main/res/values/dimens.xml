@@ -9,4 +9,9 @@
     <dimen name="foto_deportesHeight">275dp</dimen>
     <dimen name="sizecuadros">200dp</dimen>
     <dimen name="sizeanchocuadros">50dp</dimen>
+    <dimen name="sizeTitleAdmin">30sp</dimen>
+    <dimen name="heightImageProduct">25dp</dimen>
+    <dimen name="textSizeAdmin">25sp</dimen>
+    <dimen name="heightImageUser">200dp</dimen>
+    <dimen name="textSizeBtGuardar">20sp</dimen>
 </resources>

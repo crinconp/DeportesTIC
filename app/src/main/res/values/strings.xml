@@ -6,4 +6,6 @@
     <string name="textHome">Bienvenido a DEPORTES TIC, un espacio diseñado pensando en tu comodidad. Encuentra todos los productos deportivos de tu interés, sin salir de casa y a un precio inigualable.</string>
     <string name="textSlogan">¡Atrévete a vencer tus límites, nosotros te acompañamos en el camino!</string>
     <string name="carro">Carrito de compras</string>
+    <string name="textTitleAdmin">Mi Cuenta</string>
+    <string name="navigate_edition">Guardar Cambios</string>
 </resources>
