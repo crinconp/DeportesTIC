@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "67413157805",
+    "project_id": "deportestic-815fe",
+    "storage_bucket": "deportestic-815fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67413157805:android:14589d4fb64f144b666324",
+        "android_client_info": {
+          "package_name": "com.example.deportestic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67413157805-ufpqgicbps8vur494r13064qotr7k5dj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deportestic",
+            "certificate_hash": "25d19b45da6e60994964b833b7600c1eb0476ca1"
+          }
+        },
+        {
+          "client_id": "67413157805-1mc92llm0kn9b7vt0otqp1tu5ss09qu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBapxII13OjKtzeik3Dsw_1oqh1gk530BY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67413157805-1mc92llm0kn9b7vt0otqp1tu5ss09qu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
