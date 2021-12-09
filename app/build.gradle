@@ -53,5 +53,7 @@ dependencies {
     // Dependencia del componente de Navegación
     api 'androidx.navigation:navigation-fragment-ktx:2.3.3'
     api 'androidx.navigation:navigation-ui-ktx:2.3.3'
-
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:29.0.1')
+    implementation 'com.google.firebase:firebase-analytics-ktx:20.0.0'
 }

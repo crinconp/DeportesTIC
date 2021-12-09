@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "296500688412",
+    "project_id": "deportestic-e85aa",
+    "storage_bucket": "deportestic-e85aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296500688412:android:3914f0fb45a85d675711d9",
+        "android_client_info": {
+          "package_name": "com.example.deportestic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296500688412-i99m63c8as1opcl175ecvq52k03aulu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deportestic",
+            "certificate_hash": "487ccc6768f4851cec1b27773e176851cf7ff5e7"
+          }
+        },
+        {
+          "client_id": "296500688412-ok3adq8477im7mc7mldm2ee05onmktvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwm--m32P6f8ocU71YCq0UsY--CKfIScE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296500688412-ok3adq8477im7mc7mldm2ee05onmktvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
