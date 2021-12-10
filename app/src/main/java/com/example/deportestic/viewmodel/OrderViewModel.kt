@@ -1,10 +1,10 @@
-package com.example.deportestic.view.ui.viewmodel
+package com.example.deportestic.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.deportestic.view.ui.model.Products
-import com.example.deportestic.view.ui.network.Callback
-import com.example.deportestic.view.ui.network.FirestoreService
+import com.example.deportestic.model.Products
+import com.example.deportestic.network.Callback
+import com.example.deportestic.network.FirestoreService
 import java.lang.Exception
 
 class OrderViewModel: ViewModel() {

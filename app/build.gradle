@@ -67,3 +67,6 @@ dependencies {
     //Añadimos la dependencia de Picasso
     implementation "com.squareup.picasso:picasso:2.8"
 }
+
+// ADD THIS AT THE BOTTOM
+apply plugin: 'com.google.gms.google-services'

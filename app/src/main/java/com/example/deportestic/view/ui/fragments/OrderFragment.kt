@@ -1,4 +1,4 @@
-package com.example.tiendadonemiliop67.view.ui.fragments
+package com.example.deportestic.view.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,11 +12,10 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.deportestic.R
 import com.example.deportestic.databinding.FragmentOrderBinding
+import com.example.deportestic.model.Products
 import com.example.deportestic.view.adapter.ProductsAdapter
 import com.example.deportestic.view.adapter.ProductsListener
-import com.example.deportestic.view.ui.model.Products
-import com.example.deportestic.view.ui.viewmodel.OrderViewModel
-
+import com.example.deportestic.viewmodel.OrderViewModel
 
 
 class OrderFragment : Fragment(), ProductsListener {
@@ -53,6 +52,7 @@ class OrderFragment : Fragment(), ProductsListener {
 
         binding.rvOrder.apply {
             layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL, false)
+            adapter = productsAdapter
 
         }
         observeViewModel()
@@ -70,7 +70,7 @@ class OrderFragment : Fragment(), ProductsListener {
     }
     override fun OnProductsClick(product: Products, position: Int) {
         val bundle = bundleOf("product" to product)
-        findNavController().navigate(R.id.orderDetailDialogFragment2,bundle)
+        findNavController().navigate(R.id.orderDetailDialogFragment,bundle)
     }
 
 }

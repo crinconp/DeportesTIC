@@ -1,9 +1,9 @@
-package com.example.deportestic.view.ui.network
+package com.example.deportestic.network
 
-import com.example.deportestic.view.ui.model.Products
+import com.example.deportestic.model.Products
 import com.google.firebase.firestore.FirebaseFirestore
 
-const val PRODUCT_COLLECTION_NAME="products"
+const val PRODUCT_COLLECTION_NAME = "products"
 
 class FirestoreService {
     val firebaseFirestore = FirebaseFirestore.getInstance()

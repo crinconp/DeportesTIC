@@ -1,9 +1,8 @@
-package com.example.deportestic.view.ui.network
+package com.example.deportestic.network
 
 import java.lang.Exception
 
 interface Callback <T> {
     fun onSuccess(result: T?)
     fun onFailed(exception: Exception)
-
 }

@@ -1,4 +1,4 @@
-package com.example.tiendadonemiliop67.view.ui.fragments
+package com.example.deportestic.view.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import com.example.deportestic.databinding.FragmentOrderDetailDialogBinding
-import com.example.deportestic.view.ui.model.Products
-
+import com.example.deportestic.model.Products
 import com.squareup.picasso.Picasso
 
 class OrderDetailDialogFragment : DialogFragment() {
@@ -35,10 +34,10 @@ class OrderDetailDialogFragment : DialogFragment() {
 
         val products = arguments?.getSerializable("product") as Products
 
-        binding.tvNameProduct.text = products.Nombre
-        binding.tvDescriptionProduct.text= products.descrisption
-        binding.tvPriceProduct.text = products.Precio
-        Picasso.get().load(products.URl).into(binding.ivProduct)
+        binding.tvNameProduct.text = products.nombre
+        binding.tvDescriptionProduct.text= products.detail
+        binding.tvPriceProduct.text = products.price
+        Picasso.get().load(products.url).into(binding.ivProduct)
 
         binding.btBuyProduct.setOnClickListener {
             dismiss()

@@ -75,7 +75,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:background="@color/primaryDarkColor"
-                            android:text="Añadir al carro"
+                            android:text="Añadir al carrito"
                             android:textColor="@color/secondaryTextColor"
                             android:layout_marginTop="@dimen/defaultLayoutMargin"/>
 
