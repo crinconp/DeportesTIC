@@ -32,7 +32,11 @@
         android:id="@+id/navCommentsFragment"
         android:name="com.example.deportestic.view.ui.fragments.ComentsFragment"
         android:label="fragment_coments"
-        tools:layout="@layout/fragment_coments" />
+        tools:layout="@layout/fragment_coments" >
+        <action
+            android:id="@+id/action_navCommentsFragment_to_orderDetailDialogFragment2"
+            app:destination="@id/orderDetailDialogFragment2" />
+    </fragment>
     <fragment
         android:id="@+id/navShoppingCartFragment"
         android:name="com.example.deportestic.view.ui.fragments.ShoppingCartFragment"
@@ -44,5 +48,10 @@
         android:name="com.example.deportestic.view.ui.fragments.AdminFragment"
         android:label="fragment_admin"
         tools:layout="@layout/fragment_admin" />
+    <dialog
+        android:id="@+id/orderDetailDialogFragment2"
+        android:name="com.example.tiendadonemiliop67.view.ui.fragments.OrderDetailDialogFragment"
+        android:label="OrderDetailDialogFragment" />
+
 
 </navigation>
